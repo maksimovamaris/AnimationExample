@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <AbsoluteLayout
+        android:id="@+id/object_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="Deprecated">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/object_animator"
+            android:textAlignment="center"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:id="@+id/object_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_y="-400px"
+            android:src="@drawable/ball" />
+    </AbsoluteLayout>
+</LinearLayout>
